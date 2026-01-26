@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>页面不见啦 - 我的知识库</title>
+    <!-- 使用你网站的主样式，确保风格统一 -->
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        /* 404页面的专属样式 */
+        .error-container {
+            text-align: center;
+            padding: 60px 20px;
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .error-code {
+            font-size: 6rem;
+            font-weight: bold;
+            color: #e74c3c;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+        .error-message {
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+        .action-links {
+            margin-top: 30px;
+        }
+        .action-links a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 12px 30px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .action-links a:hover {
+            background-color: #2980b9;
+        }
+        .search-box {
+            margin-top: 30px;
+            max-width: 500px;
+            width: 100%;
+        }
+        .search-box input {
+            width: 70%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px 0 0 4px;
+        }
+        .search-box button {
+            width: 30%;
+            padding: 12px;
+            background-color: #2ecc71;
+            color: white;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+        @media (max-width: 600px) {
+            .error-code { font-size: 4rem; }
+            .error-message { font-size: 1.4rem; }
+            .action-links a {
+                display: block;
+                margin: 10px auto;
+                max-width: 250px;
+            }
+            .search-box input,
+            .search-box button {
+                width: 100%;
+                border-radius: 4px;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 这里复用你网站统一的导航栏 -->
+    <header>
+        <h1><a href="/" style="text-decoration: none; color: inherit;">我的知识库</a></h1>
+        <nav>
+            <a href="/">首页</a> |
+            <a href="/notes/">笔记</a> |
+            <a href="/collections/">收藏</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="error-container">
+            <!-- 错误代码和趣味信息 -->
+            <div class="error-code">404</div>
+            <div class="error-message">哎呀，你要找的页面好像迷路了...</div>
+            <p>这可能是因为链接地址发生了变化，或者页面被移动了。</p>
+            <p>别担心，你可以：</p>
+
+            <!-- 主要操作按钮 -->
+            <div class="action-links">
+                <a href="/">返回首页</a>
+                <a href="/notes/">浏览笔记</a>
+                <a href="javascript:history.back()">返回上一页</a>
+            </div>
+
+            <!-- 简易站内搜索（需根据你的网站实现功能） -->
+            <div class="search-box">
+                <p>或者，试试在全站搜索：</p>
+                <form id="search-form" onsubmit="return handleSearch()">
+                    <input type="text" id="search-query" placeholder="输入关键词...">
+                    <button type="submit">搜索</button>
+                </form>
+                <p style="font-size:0.8em; color:#888; margin-top:5px;">提示：如果你的网站内容不多，可以链接到笔记列表页代替搜索。</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- 这里复用你网站统一的页脚 -->
+    <footer>
+        <p>© 2023 我的站点. 托管于 <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+    </footer>
+
+    <script>
+        // 简单的搜索处理函数（需要你根据网站内容实现）
+        function handleSearch() {
+            let query = document.getElementById('search-query').value.trim();
+            if (query) {
+                // 这里只是一个示例。你可以：
+                // 1. 跳转到Google站内搜索（如果已设置）
+                // window.location.href = `https://www.google.com/search?q=site:你的网站域名 ${encodeURIComponent(query)}`;
+                // 2. 或者，跳转到你专门的文章列表页，手动查找
+                alert(`搜索功能示例：你正在搜索 “${query}”。\n\n对于纯HTML网站，实现全文搜索较复杂。一个简单方法是创建一个按标签分类的索引页。`);
+                // 实际使用时，建议先跳转到笔记总列表页 /notes/
+                // window.location.href = '/notes/';
+            }
+            return false; // 阻止表单默认提交
+        }
+    </script>
+</body>
+</html>
