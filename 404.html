@@ -9,108 +9,53 @@
     <!-- 使用你网站的主样式，确保风格统一 -->
     <link rel="stylesheet" href="assets/style.css">
     <style>
-        /* 404页面的专属样式 */
-        .error-container {
-            text-align: center;
-            padding: 60px 20px;
-            min-height: 60vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .error-code {
-            font-size: 6rem;
-            font-weight: bold;
-            color: #e74c3c;
-            line-height: 1;
-            margin-bottom: 10px;
-        }
-        .error-message {
-            font-size: 1.8rem;
-            margin-bottom: 30px;
-            color: #2c3e50;
-        }
-        .action-links {
-            margin-top: 30px;
-        }
-        .action-links a {
-            display: inline-block;
-            margin: 0 10px;
-            padding: 12px 30px;
-            background-color: #3498db;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .action-links a:hover {
-            background-color: #2980b9;
-        }
-        .search-box {
-            margin-top: 30px;
-            max-width: 500px;
-            width: 100%;
-        }
-        .search-box input {
-            width: 70%;
-            padding: 12px;
-            border: 1px solid #ddd;
-            border-radius: 4px 0 0 4px;
-        }
-        .search-box button {
-            width: 30%;
-            padding: 12px;
-            background-color: #2ecc71;
-            color: white;
-            border: none;
-            border-radius: 0 4px 4px 0;
-            cursor: pointer;
-        }
-        @media (max-width: 600px) {
-            .error-code { font-size: 4rem; }
-            .error-message { font-size: 1.4rem; }
-            .action-links a {
-                display: block;
-                margin: 10px auto;
-                max-width: 250px;
-            }
-            .search-box input,
-            .search-box button {
-                width: 100%;
-                border-radius: 4px;
-                margin-bottom: 5px;
-            }
-        }
+        /* 404 页面局部布局（细节样式放在 assets/style.css 中） */
+        .error-container{ text-align:center; padding:60px 20px; min-height:60vh; display:flex; flex-direction:column; justify-content:center; align-items:center }
+        .error-message{ font-size:1.6rem; margin-bottom:18px; color:#2c3e50 }
+        .action-links{ margin-top:20px }
+        .action-links a{ display:inline-block; margin:6px 8px; padding:10px 22px; background:#3498db; color:#fff; text-decoration:none; border-radius:6px }
+        .action-links a:hover{ background:#2980b9 }
+        @media (max-width:600px){ .error-message{ font-size:1.2rem } .action-links a{ display:block; margin:8px auto; max-width:260px } }
     </style>
 </head>
 <body>
-    <!-- 这里复用你网站统一的导航栏 -->
-    <header>
-        <h1><a href="/" style="text-decoration: none; color: inherit;">我的知识库</a></h1>
-        <nav>
-            <a href="/">首页</a> |
-            <a href="/notes/">笔记</a> |
-            <a href="/collections/">收藏</a>
-        </nav>
-    </header>
+        <!-- 复用与首页相同的页眉 -->
+        <header class="site-header">
+            <div class="container">
+                <h1 class="site-title"><a href="/" style="text-decoration:none;color:inherit;">我的博客</a></h1>
+                <p class="site-desc">基于纯静态 HTML/CSS/JS 的示例站点</p>
+            </div>
+        </header>
 
     <main id="main" role="main">
         <div class="error-container">
             <!-- 错误代码和趣味信息 -->
-            <div class="illustration" aria-hidden="true">
-                <!-- 简单友好插画 SVG -->
-                <svg width="220" height="140" viewBox="0 0 220 140" xmlns="http://www.w3.org/2000/svg" role="img">
-                    <title>迷路的页面插画</title>
-                    <rect x="0" y="0" width="220" height="140" rx="12" fill="#eef6ff"/>
-                    <g transform="translate(28,22)">
-                        <circle cx="40" cy="40" r="18" fill="#fff" stroke="#cfe9ff"/>
-                        <rect x="70" y="18" width="78" height="44" rx="6" fill="#fff" stroke="#cfe9ff"/>
-                        <path d="M18 88c10-18 44-24 68-12 22 10 36 6 50-4" stroke="#a0d2ff" stroke-width="3" fill="none" stroke-linecap="round"/>
-                        <text x="40" y="46" font-size="10" text-anchor="middle" fill="#7aaef9">404</text>
-                    </g>
-                </svg>
-            </div>
+                        <div class="illustration" aria-hidden="true">
+                                <!-- 更精美的插画 SVG（可替换为你喜欢的 SVG/图片） -->
+                                <svg width="260" height="160" viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg" role="img">
+                                        <title>友好迷路插画</title>
+                                        <defs>
+                                            <linearGradient id="g1" x1="0" x2="1">
+                                                <stop offset="0" stop-color="#e6f3ff"/>
+                                                <stop offset="1" stop-color="#f7fbff"/>
+                                            </linearGradient>
+                                        </defs>
+                                        <rect width="260" height="160" rx="12" fill="url(#g1)"/>
+                                        <g transform="translate(28,18)">
+                                            <path d="M10 100 C32 80, 60 68, 96 72 C132 76, 156 92, 200 84" stroke="#bfe1ff" stroke-width="6" fill="none" stroke-linecap="round"/>
+                                            <g transform="translate(6,10)">
+                                                <circle cx="24" cy="36" r="18" fill="#fff" stroke="#cfe9ff"/>
+                                                <path d="M18 46 q6 6 12 0" stroke="#ffd6a6" stroke-width="3" fill="none" stroke-linecap="round"/>
+                                            </g>
+                                            <g transform="translate(92,10)">
+                                                <rect x="0" y="10" width="86" height="44" rx="8" fill="#fff" stroke="#d6edff"/>
+                                                <path d="M10 24 h66" stroke="#cfe9ff" stroke-width="2"/>
+                                                <path d="M10 34 h46" stroke="#e9f6ff" stroke-width="2"/>
+                                            </g>
+                                            <text x="44" y="86" font-size="14" fill="#7aaef9">迷路了？我们来帮你找回路</text>
+                                        </g>
+                                </svg>
+                        </div>
             <div class="error-code">404</div>
             <div class="error-message">哎呀，你要找的页面好像迷路了...</div>
             <p>这可能是因为链接地址发生了变化，或者页面被移动了。</p>
@@ -119,7 +64,7 @@
             <!-- 主要操作按钮 -->
             <div class="action-links">
                 <a href="/">返回首页</a>
-                <a href="/notes/">浏览笔记</a>
+                <a href="posts/">浏览文章</a>
                 <a href="javascript:history.back()">返回上一页</a>
             </div>
 
@@ -131,37 +76,17 @@
                             </ul>
                         </div>
 
-            <!-- 简易站内搜索（需根据你的网站实现功能） -->
-            <div class="search-box">
-                <p>或者，试试在全站搜索：</p>
-                        <input type="text" id="search-query" name="q" aria-label="站内搜索关键词" placeholder="输入关键词...">
-                    <button type="submit">搜索</button>
-                </form>
-                <p style="font-size:0.8em; color:#888; margin-top:5px;">提示：如果你的网站内容不多，可以链接到笔记列表页代替搜索。</p>
-            </div>
+            <!-- 搜索功能已移除；使用推荐或返回首页即可 -->
         </div>
     </main>
 
-    <!-- 这里复用你网站统一的页脚 -->
-    <footer>
-        <p>© <span id="year"></span> 我的站点. 托管于 <a href="https://pages.github.com/" rel="noopener noreferrer">GitHub Pages</a>.</p>
+    <!-- 复用与首页相同的页脚 -->
+    <footer class="site-footer">
+      <div class="container">&copy; <span id="year"></span> 我的博客</div>
     </footer>
 
     <script>
-        // 简单的搜索处理函数（需要你根据网站内容实现）
-        function handleSearch() {
-            let query = document.getElementById('search-query').value.trim();
-            if (query) {
-                // 这里只是一个示例。你可以：
-                // 1. 跳转到Google站内搜索（如果已设置）
-                // window.location.href = `https://www.google.com/search?q=site:你的网站域名 ${encodeURIComponent(query)}`;
-                // 2. 或者，跳转到你专门的文章列表页，手动查找
-                alert(`搜索功能示例：你正在搜索 “${query}”。\n\n对于纯HTML网站，实现全文搜索较复杂。一个简单方法是创建一个按标签分类的索引页。`);
-                // 实际使用时，建议先跳转到笔记总列表页 /notes/
-                // window.location.href = '/notes/';
-            }
-            return false; // 阻止表单默认提交
-        }
+        // 已移除搜索功能（纯静态站点如需搜索，可改为客户端渲染或外部 site: 搜索）
 
         // 自动填充年份
         (function(){
