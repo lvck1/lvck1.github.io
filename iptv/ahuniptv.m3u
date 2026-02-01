@@ -1,0 +1,377 @@
+#EXTM3U x-tvg-url="https://epg.51zmt.top:8001/e.xml"
+
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-1.png",CCTV-1综合
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000152
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-2.png",CCTV-2财经
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000477
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-3.png",CCTV-3综艺
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000487
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-4.png",CCTV-4中文国际
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000573
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-5.png",CCTV-5体育
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000481
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-6.png",CCTV-6电影
+http://10.255.126.3:8006/AHBKLIVE/11111120220816000000000000000005
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-7.png",CCTV-7国防军事
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000485
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-8.png",CCTV-8电视剧
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000476
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-9.png",CCTV-9记录
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000478
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-10.png",CCTV-10科教
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000480
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-11.png",CCTV-11戏曲
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000583
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-12.png",CCTV-12社会与法
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000482
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-13.png",CCTV-13新闻
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000602
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-14.png",CCTV-14少儿
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000483
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-15.png",CCTV-15音乐
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000587
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-16.png",CCTV-16奥林匹克
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000625
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-17.png",CCTV-17农业农村
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000580
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-5P.png",CCTV-5+体育赛事
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000153
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-4K.png",CCTV-4K超高清
+http://10.255.127.35:6060/gitv_live/G_CCTV-4K-HD/index.m3u8?Playtype=1&gMac=00&partnerCode=-&m3u8_level=2
+
+
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CETV-1.png",CETV-1
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000463
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CETV-2.png",CETV-2
+http://10.255.126.3:8006/AHBKLIVE/00005000000000000000000000000251
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CETV-3.png",CETV-3
+http://10.255.127.35:6060/gitv_live/G_CETV-3/index.m3u8?Playtype=1&gMac=00&partnerCode=-&m3u8_level=2
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CETV-4.png",CETV-4
+http://10.255.126.3:8006/AHBKLIVE/00005000000000000000000000000252
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CETV-早期教育.png",CETV-早期教育
+http://10.255.127.35:6060/gitv_live/G_CETV-ZQJY-CQ/index.m3u8?Playtype=1&gMac=00&partnerCode=-&m3u8_level=2
+
+
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-16.png",CCTV-16奥林匹克·4K
+http://aliyunoa.x3322.net:88/ysp.php?id=CCTV164K
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-4K.png",CCTV-4K超高清
+http://aliyunoa.x3322.net:88/ysp.php?id=CCTV4K
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-8K.png",CCTV-8K超高清
+http://aliyunoa.x3322.net:88/ysp.php?id=CCTV8K
+
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-16.png",CCTV-16奥林匹克·4K
+http://111.228.4.117:6789/ysp.php?id=CCTV164K
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-4K.png",CCTV-4K超高清
+http://111.228.4.117:6789/ysp.php?id=CCTV4K
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-8K.png",CCTV-8K超高清
+http://111.228.4.117:6789/ysp.php?id=CCTV8K
+
+
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CGTN.png",CGTN
+https://english-liveali.cgtn.com/hls/yypdyyctzb/yypdyyctzbcd/playlist.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CGTN.png",CGTN
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000148
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CGTN-法语.png",CGTN-法语
+https://francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CGTN-西班牙语.png",CGTN-西班牙语
+https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CGTN-俄语.png",CGTN-俄语
+https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CGTN-阿拉伯语.png",CGTN-阿拉伯语
+https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CGTN-记录.png",CGTN-记录
+https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
+
+
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/安徽卫视.png",安徽卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000039
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/东方卫视.png",东方卫视
+http://10.255.126.3:8006/AHBKLIVE/00005000000000000000000000000263
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/东方卫视·4K.png",东方卫视·4K
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000654
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/东方卫视·4K.png",东方卫视·4K
+http://10.255.127.103:6410/gitv_live/G_DONGFANG-4K/index.m3u8?Playtype=1&gMac=&partnerCode=&m3u8_level=2
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/江苏卫视.png",江苏卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000198
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/江苏卫视·4K.png",江苏卫视·4K
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000648
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/江苏卫视·4K.png",江苏卫视·4K
+http://10.255.127.103:6410/gitv_live/G_JIANGSU-4K/index.m3u8?Playtype=1&gMac=&partnerCode=&m3u8_level=2
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/浙江卫视.png",浙江卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000265
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/浙江卫视·4K.png",浙江卫视·4K
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000650
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/浙江卫视·4K.png",浙江卫视·4K
+http://10.255.127.103:6410/gitv_live/G_ZHEJIANG-4K/index.m3u8?Playtype=1&gMac=&partnerCode=&m3u8_level=2
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/北京卫视.png",北京卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000194
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/北京卫视·4K.png",北京卫视·4K
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000633
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/天津卫视.png",天津卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000266
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/河北卫视.png",河北卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000575
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/山西卫视.png",山西卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000099
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/山西卫视.png",山西卫视
+http://10.255.127.35:6060/gitv_live/SXWS/index.m3u8?Playtype=1&gMac=&partnerCode=&m3u8_level=2
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/内蒙古卫视.png",内蒙古卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000098
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/辽宁卫视.png",辽宁卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000472
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/吉林卫视.png",吉林卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000619
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/吉林卫视.png",吉林卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000091
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/黑龙江卫视.png",黑龙江卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000196
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/东南卫视.png",东南卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000075
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/东南卫视.png",东南卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000588
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/厦门卫视.png",厦门卫视
+http://10.255.126.3:8006/AHBKLIVE/00005000000000000000000000000244
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/江西卫视.png",江西卫视
+http://10.255.127.35:6060/gitv_live/G_JIANGXI-CQ/index.m3u8?Playtype=1&gMac=00&partnerCode=-&m3u8_level=2
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/江西卫视.png",江西卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000065
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/山东卫视.png",山东卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000470
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/山东卫视·4K.png",山东卫视·4K
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000652
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/山东卫视·4K.png",山东卫视·4K
+http://10.255.127.103:6410/gitv_live/G_SHANDONG-4K/index.m3u8?Playtype=1&gMac=&partnerCode=&m3u8_level=2
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/河南卫视.png",河南卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000085
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/湖北卫视.png",湖北卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000267
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/湖南卫视.png",湖南卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000195
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/湖南卫视·4K.png",湖南卫视·4K
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000645
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/湖南卫视·4K.png",湖南卫视·4K
+http://10.255.127.103:6410/gitv_live/G_HUNAN-4K/index.m3u8?Playtype=1&gMac=&partnerCode=&m3u8_level=2
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/广东卫视.png",广东卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000445
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/广东卫视·4K.png",广东卫视·4K
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000636
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/深圳卫视.png",深圳卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000197
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/深圳卫视4K.png",深圳卫视·4K
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000638
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/广西卫视.png",广西卫视
+http://10.255.127.35:6060/gitv_live/G_GUANGXI-HQ/index.m3u8?Playtype=1&gMac=00&partnerCode=-&m3u8_level=2
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/广西卫视.png",广西卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000086
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/海南卫视.png",海南卫视
+http://10.255.126.3:8006/AHBKLIVE/12000000000000000000000000000003
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/三沙卫视.png",三沙卫视
+http://10.255.127.35:6060/gitv_live/G_SANSHA-HQ/index.m3u8?Playtype=1&gMac=00&partnerCode=-&m3u8_level=2
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/三沙卫视.png",三沙卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000589
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/重庆卫视.png",重庆卫视
+http://10.255.127.35:6060/gitv_live/G_CHONGQING-CQ/index.m3u8?Playtype=1&gMac=00&partnerCode=-&m3u8_level=2
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/重庆卫视.png",重庆卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000083
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/四川卫视.png",四川卫视
+http://10.255.127.35:6060/gitv_live/G_SICHUAN-CQ/index.m3u8?Playtype=1&gMac=00&partnerCode=-&m3u8_level=2
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/四川卫视.png",四川卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000069
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/四川卫视4K.png",四川卫视·4K
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000643
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/四川卫视4K.png",四川卫视·4K
+http://10.255.127.103:6410/gitv_live/G_SICHUAN-4K/index.m3u8?Playtype=1&gMac=&partnerCode=&m3u8_level=2
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/贵州卫视.png",贵州卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000577
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/云南卫视.png",云南卫视
+http://10.255.127.35:6060/gitv_live/G_YUNNAN-CQ/index.m3u8?Playtype=1&gMac=00&partnerCode=-&m3u8_level=2
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/云南卫视.png",云南卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000060
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/西藏卫视.png",西藏卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000639
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/西藏卫视.png",西藏卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000100
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/陕西卫视.png",陕西卫视
+http://10.255.127.35:6060/gitv_live/G_SHANXI-HQ/index.m3u8?Playtype=1&gMac=00&partnerCode=-&m3u8_level=2
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/陕西卫视.png",陕西卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000090
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/甘肃卫视.png",甘肃卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000603
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/甘肃卫视.png",甘肃卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000094
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/青海卫视.png",青海卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000096
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/宁夏卫视.png",宁夏卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000640
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/宁夏卫视.png",宁夏卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000082
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/新疆卫视.png",新疆卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000641
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/新疆卫视.png",新疆卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000097
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/兵团卫视.png",兵团卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000642
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/兵团卫视.png",兵团卫视
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000462
+
+
+#EXTINF:-1 group-title="安徽频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/安徽公共.png",安徽公共
+http://10.255.126.3:8006/AHBKLIVE/11111100000000000000000000000009
+#EXTINF:-1 group-title="安徽频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/安徽经济生活.png",安徽经济生活
+http://112.28.222.71:20080/live/5c6207583a334b048f77dddf370bd840/hls.m3u8
+#EXTINF:-1 group-title="安徽频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/安徽经济生活.png",安徽经济生活
+http://10.255.126.3:8006/AHBKLIVE/11111100000000000000000000000005
+#EXTINF:-1 group-title="安徽频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/安徽影视.png",安徽影视
+http://112.28.222.71:20080/live/8534e69a9af14e41a362bcef71d7896f/hls.m3u8
+#EXTINF:-1 group-title="安徽频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/安徽影视.png",安徽影视
+http://10.255.126.3:8006/AHBKLIVE/11111100000000000000000000000007
+#EXTINF:-1 group-title="安徽频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/安徽农业科教.png",安徽农业·科教
+http://10.255.126.3:8006/AHBKLIVE/11111100000000000000000000000013
+#EXTINF:-1 group-title="安徽频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/安徽综艺体育.png",安徽综艺·体育
+http://112.28.222.71:20080/live/7f908bf821d04f66b765af65e49196eb/hls.m3u8
+#EXTINF:-1 group-title="安徽频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/安徽综艺体育.png",安徽综艺·体育
+http://10.255.126.3:8006/AHBKLIVE/11111100000000000000000000000011
+#EXTINF:-1 group-title="安徽频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/安徽国际.png",安徽国际
+http://10.255.126.3:8006/AHBKLIVE/11111100000000000000000000000015
+#EXTINF:-1 group-title="安徽频道",滁州新闻综合
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000081
+#EXTINF:-1 group-title="安徽频道",滁州科教
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000085
+#EXTINF:-1 group-title="安徽频道",亳州农村
+http://10.255.126.3:8006/AHBKLIVE/11111120210408000000000000000033
+#EXTINF:-1 group-title="安徽频道",蚌埠新闻
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000077
+#EXTINF:-1 group-title="安徽频道",蚌埠生活
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000079
+#EXTINF:-1 group-title="安徽频道",宿州科教
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000097
+#EXTINF:-1 group-title="安徽频道",宿州新闻综合
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000099
+#EXTINF:-1 group-title="安徽频道",安庆新闻综合
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000111
+#EXTINF:-1 group-title="安徽频道",安庆经济生活
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000109
+#EXTINF:-1 group-title="安徽频道",淮南新闻综合
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000105
+#EXTINF:-1 group-title="安徽频道",淮北新闻综合
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000119
+#EXTINF:-1 group-title="安徽频道",淮北经济生活
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000121
+#EXTINF:-1 group-title="安徽频道",六安综合
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000125
+#EXTINF:-1 group-title="安徽频道",六安社会生活
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000123
+#EXTINF:-1 group-title="安徽频道",池州新闻综合
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000089
+#EXTINF:-1 group-title="安徽频道",黄山新闻综合
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000117
+#EXTINF:-1 group-title="安徽频道",黄山文旅
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000115
+#EXTINF:-1 group-title="安徽频道",马鞍山新闻综合
+http://10.255.126.3:8006/AHBKLIVE/11111120211018000000000000000015
+#EXTINF:-1 group-title="安徽频道",马鞍山科教生活
+http://10.255.126.3:8006/AHBKLIVE/11111120211027000000000000000001
+#EXTINF:-1 group-title="安徽频道",芜湖新闻综合
+http://10.255.126.3:8006/AHBKLIVE/11111120211018000000000000000011
+#EXTINF:-1 group-title="安徽频道",芜湖生活频道
+http://10.255.126.3:8006/AHBKLIVE/11111120211112000000000000000005
+#EXTINF:-1 group-title="安徽频道",无为综合
+http://10.255.126.3:8006/AHBKLIVE/11111120210510000000000000000093
+
+
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-兵器科技.png",CCTV-兵器科技
+http://10.255.126.3:8006/AHBKLIVE/11111120210421000000000000000053
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-第一剧场.png",CCTV-第一剧场
+http://10.255.126.3:8006/AHBKLIVE/11111120210421000000000000000039
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-风云剧场.png",CCTV-风云剧场
+http://10.255.126.3:8006/AHBKLIVE/11111120210421000000000000000041
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-风云音乐.png",CCTV-风云音乐
+http://10.255.126.3:8006/AHBKLIVE/11111120210421000000000000000037
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-风云足球.png",CCTV-风云足球
+http://10.255.126.3:8006/AHBKLIVE/11111120210421000000000000000051
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-高尔夫·网球.png",CCTV-高尔夫·网球
+http://10.255.126.3:8006/AHBKLIVE/11111120210421000000000000000049
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-怀旧剧场.png",CCTV-怀旧剧场
+http://10.255.126.3:8006/AHBKLIVE/11111120210421000000000000000043
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-女性时尚.png",CCTV-女性时尚
+http://10.255.126.3:8006/AHBKLIVE/11111120210421000000000000000055
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-央视台球.png",CCTV-央视台球
+http://10.255.126.3:8006/AHBKLIVE/11111120210421000000000000000047
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-央视文化精品.png",CCTV-央视文化精品
+http://10.255.126.3:8006/AHBKLIVE/11111120210421000000000000000057
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/茶频道.png",茶频道
+http://10.255.126.3:8006/AHBKLIVE/ccfffb202e2e4795b85241af37abc8de
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/金鹰纪实.png",金鹰纪实
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000569
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/快乐垂钓.png",快乐垂钓
+http://10.255.126.3:8006/AHBKLIVE/4d0ec3c7a7cf41458ce3c7e241f7ed7a
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/天元围棋.png",天元围棋
+http://10.255.127.35:6060/gitv_live/G_TIANYUANWQ/index.m3u8?Playtype=1&gMac=00&partnerCode=-&m3u8_level=2
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/四海钓鱼.png",四海钓鱼
+http://10.255.126.3:8006/AHBKLIVE/11111120251124000000000000000001
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/环球旅游.png",环球旅游
+http://10.255.126.3:8006/AHBKLIVE/11111120251124000000000000000003
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/重温经典.png",重温经典
+http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
+
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-电视指南.png",CCTV-电视指南
+http://42.48.106.138:808/hls/116/index.m3u8
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CCTV-世界地理.png",CCTV-世界地理
+http://42.48.106.138:808/hls/109/index.m3u8
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CHC·家庭影院.png",CHC·家庭影院
+http://42.48.106.138:808/hls/63/index.m3u8
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CHC·影迷电影.png",CHC·影迷电影
+http://42.48.106.138:808/hls/64/index.m3u8
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/CHC·动作电影.png",CHC·动作电影
+http://42.48.106.138:808/hls/65/index.m3u8
+#EXTINF:-1 group-title="数字频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/五星体育.png",五星体育
+http://bp-livetytv.bestv.cn/ch/bestvwxty.m3u8
+
+
+#EXTINF:-1 group-title="其他频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/凤凰卫视资讯台.png",凤凰卫视资讯台
+https://cdn6.101.qzz.io/163189/fhzx
+#EXTINF:-1 group-title="其他频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/凤凰卫视资讯台.png",凤凰卫视资讯台
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+#EXTINF:-1 group-title="其他频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/凤凰卫视中文台.png",凤凰卫视中文台
+https://cdn6.101.qzz.io/163189/fhzw
+#EXTINF:-1 group-title="其他频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/凤凰卫视中文台.png",凤凰卫视中文台
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+#EXTINF:-1 group-title="其他频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/凤凰卫视香港台.png",凤凰卫视香港台
+https://cdn6.101.qzz.io/163189/fhhk
+#EXTINF:-1 group-title="其他频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/凤凰卫视香港台.png",凤凰卫视香港台
+http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
+#EXTINF:-1 group-title="其他频道" tvg-logo="",翡翠台
+http://php.jdshipin.com/TVOD/iptv.php?id=fct3
+
+#EXTINF:-1 group-title="其他频道",山东教育卫视
+http://10.255.126.3:8006/AHBKLIVE/00005000000000000000000000000248
+#EXTINF:-1 group-title="其他频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/卡酷少儿.png",卡酷少儿
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000150
+#EXTINF:-1 group-title="其他频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/金鹰卡通.png",金鹰卡通
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000151
+#EXTINF:-1 group-title="其他频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/嘉佳卡通.png",嘉佳卡通
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000448
+#EXTINF:-1 group-title="其他频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/优漫卡通.png",优漫卡通
+http://10.255.127.35:6060/gitv_live/G_YOUMAN/index.m3u8?Playtype=1&gMac=00&partnerCode=-&m3u8_level=2
+#EXTINF:-1 group-title="其他频道" tvg-logo="https://gitee.com/iouair/tv-station-logo/raw/master/北京纪实科教.png",北京纪实科教
+http://10.255.127.35:6060/gitv_live/G_BEIJINGJS-CQ/index.m3u8?Playtype=1&gMac=00&partnerCode=-&m3u8_level=2
+
+
+#EXTINF:-1 group-title="使用提示",列表更新时间
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000152
+#EXTINF:-1 group-title="使用提示",2026-01-14
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000152
+#EXTINF:-1 group-title="使用提示",如有抓源能力
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000152
+#EXTINF:-1 group-title="使用提示",欢迎共建共享
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000152
+#EXTINF:-1 group-title="使用提示",本站官方网址
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000152
+#EXTINF:-1 group-title="使用提示",www.wmviv.com
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000152
+#EXTINF:-1 group-title="使用提示",列表免费提供
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000152
+#EXTINF:-1 group-title="使用提示",禁止滥用商用
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000152
+#EXTINF:-1 group-title="使用提示",https://www.wmviv.com/anhui-unicom-iptv.html
+http://10.255.126.3:8006/AHBKLIVE/00000001000000050000000000000152
