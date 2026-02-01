@@ -1,1 +1,32 @@
-<h1>HelloWorld</h1>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>我的博客</title>
+	<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container">
+			<h1 class="site-title">我的博客</h1>
+			<p class="site-desc">基于纯静态 HTML/CSS/JS 的示例站点</p>
+		</div>
+	</header>
+
+	<main class="container">
+		<section id="posts-section">
+			<h2>文章</h2>
+			<ul id="posts-list" class="posts-list">
+				<!-- 列表由 assets/main.js 自动填充（读取 posts/posts.json） -->
+			</ul>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">&copy; <span id="year"></span> 我的博客</div>
+	</footer>
+
+	<script src="assets/main.js"></script>
+</body>
+</html>

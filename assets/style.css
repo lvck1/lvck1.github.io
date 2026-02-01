@@ -1,0 +1,17 @@
+/* 简单样式：可按需扩展 */
+:root{--bg:#f7f7f8;--card:#ffffff;--text:#222;--muted:#666;--accent:#0b78d1}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.6;color:var(--text);background:var(--bg)}
+.container{max-width:900px;margin:0 auto;padding:24px}
+.site-header{background:linear-gradient(90deg,#0b78d1,#4da3f7);color:#fff;padding:28px 0}
+.site-title{margin:0;font-size:28px}
+.site-desc{margin:6px 0 0;color:rgba(255,255,255,0.9)}
+h2{margin-top:0}
+.posts-list{list-style:none;padding:0;margin:12px 0}
+.posts-list li{background:var(--card);margin:10px 0;padding:16px;border-radius:8px;box-shadow:0 1px 4px rgba(20,20,20,0.04)}
+.posts-list a{color:var(--accent);text-decoration:none;font-weight:600}
+.post-meta{font-size:13px;color:var(--muted);margin-top:6px}
+.site-footer{padding:18px 0;text-align:center;color:var(--muted);font-size:14px}
+article{background:var(--card);padding:20px;border-radius:8px;margin:20px 0}
+@media (max-width:600px){.container{padding:16px}.site-title{font-size:20px}}
