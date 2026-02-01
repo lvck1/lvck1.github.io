@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>文章列表 - 我的博客</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title"><a href="/" style="text-decoration:none;color:inherit;">我的博客</a></h1>
+      <p class="site-desc">文章索引</p>
+    </div>
+  </header>
+
+  <main class="container" id="main" role="main">
+    <h2>文章列表</h2>
+    <ul id="posts-list" class="posts-list">
+      <li>正在加载文章……</li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">&copy; <span id="year"></span> 我的博客</div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+      try{document.getElementById('year').textContent = new Date().getFullYear()}catch(e){}
+      const listEl = document.getElementById('posts-list');
+      fetch('posts.json')
+        .then(r=>{ if(!r.ok) throw new Error('无法读取 posts.json'); return r.json() })
+        .then(posts=>{
+          if(!Array.isArray(posts) || posts.length===0){ listEl.innerHTML = '<li>暂无文章。</li>'; return }
+          posts.sort((a,b)=> (b.date||'').localeCompare(a.date||''));
+          listEl.innerHTML = '';
+          posts.forEach(p=>{
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            // 生成绝对根路径链接，兼容 posts.json 中存储的相对路径
+            a.href = '/' + (p.url || '').replace(/^\//, '');
+            a.textContent = p.title || '无标题';
+            li.appendChild(a);
+            if(p.date || p.summary){
+              const meta = document.createElement('div'); meta.className='post-meta';
+              meta.textContent = (p.date? p.date + ' — ' : '') + (p.summary || '');
+              li.appendChild(meta);
+            }
+            listEl.appendChild(li);
+          })
+        })
+        .catch(err=>{ listEl.innerHTML = '<li>加载失败。</li>'; console.warn(err) })
+    })
+  </script>
+</body>
+</html>
