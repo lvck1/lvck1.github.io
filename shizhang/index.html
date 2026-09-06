@@ -1117,6 +1117,46 @@
             opacity: 1
         }
 
+        #installPrompt {
+            position: fixed;
+            left: 16px;
+            right: 16px;
+            bottom: 18px;
+            z-index: 45;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            max-width: 560px;
+            margin: 0 auto;
+            padding: 14px 16px;
+            background: var(--paper);
+            color: var(--ink);
+            border-left: 4px solid var(--red);
+            border-radius: 8px;
+            box-shadow: 0 16px 34px rgba(0, 0, 0, .45);
+            font-size: 13px;
+        }
+
+        #installPrompt[hidden] {
+            display: none;
+        }
+
+        #installPrompt .install-copy {
+            flex: 1;
+            line-height: 1.55;
+        }
+
+        #installPrompt button {
+            flex: none;
+            border: 0;
+            border-radius: 6px;
+            padding: 9px 13px;
+            background: var(--red);
+            color: #fff;
+            font: inherit;
+            cursor: pointer;
+        }
+
         @media (max-width:960px) {
             .layout {
                 grid-template-columns: 1fr
@@ -1277,6 +1317,10 @@
     </div>
 
     <div id="toast" role="status"></div>
+    <div id="installPrompt" role="status" hidden>
+        <span class="install-copy" id="installCopy"></span>
+        <button id="installBtn" type="button">安装</button>
+    </div>
 
     <script>
         /* ═══════════ 基础数据 ═══════════ */
@@ -1838,6 +1882,45 @@
             }
             return null;
         }
+        let deferredInstallPrompt = null;
+        const installPrompt = document.getElementById('installPrompt');
+        const installCopy = document.getElementById('installCopy');
+        const installBtn = document.getElementById('installBtn');
+        const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+        const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+
+        function showInstallPrompt(copy, buttonText, onClick) {
+            installCopy.textContent = copy;
+            installBtn.textContent = buttonText;
+            installBtn.onclick = onClick;
+            installPrompt.hidden = false;
+        }
+
+        window.addEventListener('beforeinstallprompt', event => {
+            event.preventDefault();
+            deferredInstallPrompt = event;
+            if (!isStandalone) {
+                showInstallPrompt('把拾账安装到本地，打开更快，也方便离线使用。', '安装', async () => {
+                    installPrompt.hidden = true;
+                    deferredInstallPrompt.prompt();
+                    const choice = await deferredInstallPrompt.userChoice;
+                    if (choice.outcome !== 'accepted') installPrompt.hidden = false;
+                    deferredInstallPrompt = null;
+                });
+            }
+        });
+
+        window.addEventListener('appinstalled', () => {
+            deferredInstallPrompt = null;
+            installPrompt.hidden = true;
+        });
+
+        if (!isStandalone && isIOS) {
+            showInstallPrompt('在浏览器的分享菜单中选择“添加到主屏幕”，即可安装拾账。', '知道了', () => {
+                installPrompt.hidden = true;
+            });
+        }
+
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
                 // 加上 scope 限制范围
