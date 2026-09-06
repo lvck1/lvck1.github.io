@@ -1,4 +1,4 @@
-const VERSION = 'v2';                      // 改了页面内容就 +1，强制刷新缓存
+const VERSION = 'v3';                      // 改了页面内容就 +1，强制刷新缓存
 const CACHE = `shizhang-${VERSION}`;
 const PRECACHE = [
   './',
