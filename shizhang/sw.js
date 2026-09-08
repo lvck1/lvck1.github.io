@@ -1,5 +1,5 @@
-const VERSION = 'v3';                      // 改了页面内容就 +1，强制刷新缓存
-const CACHE = `shizhang-${VERSION}`;
+const VERSION = 'v4';                      // 每次改页面内容就 +1
+const CACHE = `youshu-${VERSION}`;
 const PRECACHE = [
   './',
   './index.html',
@@ -26,7 +26,6 @@ self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET') return;
 
-  // 页面导航：联网优先，断网时回退到缓存（保证打开的永远是新版）
   if (req.mode === 'navigate') {
     e.respondWith(
       fetch(req).then(res => {
@@ -38,7 +37,6 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // 字体/图标等：缓存优先，没缓存再联网并写入（第二次起完全离线可用）
   e.respondWith(
     caches.match(req).then(hit => hit || fetch(req).then(res => {
       if (res.ok && (res.type === 'basic' || res.type === 'cors')) {

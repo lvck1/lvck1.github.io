@@ -4,9 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>拾账 · 记账本</title>
-    <link rel="icon"
-        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%BE%3C/text%3E%3C/svg%3E">
+    <title>有数 · 记账本</title>
+    <link rel="icon" type="image/png" href="icons/icon-192.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#0b241d">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="有数">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -35,10 +41,9 @@
         }
 
         html {
-            min-height: 100%;
             scroll-behavior: smooth;
-            overscroll-behavior-y: none;
-            background: var(--bg)
+            background: #0b241d;
+            overscroll-behavior-y: none
         }
 
         body {
@@ -51,7 +56,7 @@
             background:
                 radial-gradient(1100px 560px at 88% -10%, rgba(214, 69, 51, .14), transparent 60%),
                 radial-gradient(900px 520px at -8% 108%, rgba(16, 122, 92, .28), transparent 60%),
-                var(--bg);
+                #0b241d;
         }
 
         body::before {
@@ -74,7 +79,7 @@
         }
 
         body::after {
-            content: "記";
+            content: "数";
             position: fixed;
             right: -5vh;
             bottom: -12vh;
@@ -96,10 +101,8 @@
             position: relative;
             z-index: 2;
             max-width: 1120px;
-            min-height: 100vh;
-            min-height: 100dvh;
             margin: 0 auto;
-            padding: 0 20px max(70px, calc(70px + env(safe-area-inset-bottom)))
+            padding: 0 20px 70px
         }
 
         @keyframes rise {
@@ -187,8 +190,7 @@
             border: 1px solid rgba(250, 247, 238, .18);
             padding: 6px 8px;
             border-radius: 999px;
-            color: #f0ecdd;
-            position: relative
+            color: #f0ecdd
         }
 
         .month-nav button {
@@ -235,6 +237,7 @@
             padding: 16px;
             box-shadow: 0 12px 30px rgba(0, 0, 0, .3), 0 0 0 1px rgba(0, 0, 0, .05);
             width: 260px;
+            max-width: calc(100vw - 40px);
             z-index: 10;
             opacity: 0;
             visibility: hidden;
@@ -407,7 +410,6 @@
             animation: rise .55s .08s ease both;
             border-radius: 14px 14px 0 0
         }
-
 
         .receipt-top {
             display: flex;
@@ -1124,44 +1126,20 @@
             opacity: 1
         }
 
-        #installPrompt {
-            position: fixed;
-            left: 16px;
-            right: 16px;
-            bottom: 18px;
-            z-index: 45;
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            max-width: 560px;
-            margin: 0 auto;
-            padding: 14px 16px;
-            background: var(--paper);
-            color: var(--ink);
-            border-left: 4px solid var(--red);
-            border-radius: 8px;
-            box-shadow: 0 16px 34px rgba(0, 0, 0, .45);
-            font-size: 13px;
-        }
-
-        #installPrompt[hidden] {
-            display: none;
-        }
-
-        #installPrompt .install-copy {
-            flex: 1;
-            line-height: 1.55;
-        }
-
-        #installPrompt button {
-            flex: none;
-            border: 0;
-            border-radius: 6px;
-            padding: 9px 13px;
+        #toast .toast-act {
+            margin-left: 14px;
+            border: none;
             background: var(--red);
             color: #fff;
-            font: inherit;
+            font-size: 12.5px;
+            padding: 5px 12px;
+            border-radius: 999px;
             cursor: pointer;
+            letter-spacing: .05em
+        }
+
+        #toast .toast-act:hover {
+            filter: brightness(1.1)
         }
 
         @media (max-width:960px) {
@@ -1187,19 +1165,6 @@
             }
         }
 
-        @media (max-width:600px) {
-            .month-picker {
-                left: 50%;
-                right: auto;
-                width: min(260px, calc(100vw - 32px));
-                transform: translate(-50%, -8px) scale(.96)
-            }
-
-            .month-picker.show {
-                transform: translate(-50%, 0) scale(1)
-            }
-        }
-
         @media (prefers-reduced-motion:reduce) {
 
             *,
@@ -1210,15 +1175,6 @@
             }
         }
     </style>
-
-    <link rel="icon" type="image/png" href="icons/icon-192.png">
-    <link rel="manifest" href="manifest.webmanifest">
-    <meta name="theme-color" content="#0b241d">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="拾账">
-    <link rel="apple-touch-icon" href="icons/icon-192.png">
 </head>
 
 <body>
@@ -1226,10 +1182,10 @@
 
         <header class="mast">
             <div class="brand">
-                <span class="seal">記</span>
+                <span class="seal">数</span>
                 <div>
-                    <h1>拾账</h1>
-                    <p class="tag">一笔一记 · 收支了然</p>
+                    <h1>有数</h1>
+                    <p class="tag">花多花少 · 心里有数</p>
                 </div>
             </div>
             <nav class="month-nav" id="monthNav">
@@ -1254,14 +1210,11 @@
             <div class="receipt-top"><span>MONTHLY RECEIPT · 本月小票</span><span class="barcode"></span></div>
             <div class="sum-grid">
                 <div class="sum-cell exp"><span class="sum-label">本月支出</span><span class="sum-val"
-                        id="sumExp">¥0.00</span>
-                </div>
+                        id="sumExp">¥0.00</span></div>
                 <div class="sum-cell inc"><span class="sum-label">本月收入</span><span class="sum-val"
-                        id="sumInc">¥0.00</span>
-                </div>
+                        id="sumInc">¥0.00</span></div>
                 <div class="sum-cell bal"><span class="sum-label">本月结余</span><span class="sum-val"
-                        id="sumBal">¥0.00</span>
-                </div>
+                        id="sumBal">¥0.00</span></div>
             </div>
             <div class="sum-foot" id="sumMeta"></div>
             <div class="zigzag"></div>
@@ -1330,17 +1283,12 @@
         <footer>
             数据仅保存在本机浏览器 ·
             <button id="importBtn">导入 CSV/Excel</button> ·
-            <button id="exportBtn">导出 CSV</button> ·
-            <button id="clearBtn">清空全部数据</button>
+            <button id="exportBtn">导出 CSV</button>
             <input type="file" id="importFile" accept=".csv,.xlsx,.xls" hidden>
         </footer>
     </div>
 
     <div id="toast" role="status"></div>
-    <div id="installPrompt" role="status" hidden>
-        <span class="install-copy" id="installCopy"></span>
-        <button id="installBtn" type="button">安装</button>
-    </div>
 
     <script>
         /* ═══════════ 基础数据 ═══════════ */
@@ -1436,10 +1384,22 @@
             el._raf = requestAnimationFrame(step);
         }
         let toastTimer;
-        function toast(msg) {
-            const el = $('#toast'); el.textContent = msg; el.classList.add('show');
+        function toast(msg, action) {
+            const el = $('#toast');
+            el.innerHTML = '';
+            const span = document.createElement('span');
+            span.textContent = msg;
+            el.appendChild(span);
+            if (action) {
+                const btn = document.createElement('button');
+                btn.className = 'toast-act';
+                btn.textContent = action.label;
+                btn.onclick = () => { action.fn(); el.classList.remove('show'); };
+                el.appendChild(btn);
+            }
+            el.classList.add('show');
             clearTimeout(toastTimer);
-            toastTimer = setTimeout(() => el.classList.remove('show'), 2400);
+            toastTimer = setTimeout(() => el.classList.remove('show'), action ? 5000 : 2400);
         }
 
         /* ═══════════ 月份导航 + 选择器 ═══════════ */
@@ -1685,7 +1645,7 @@
             $('#amount').focus();
         });
 
-        /* ═══════════ 明细交互 ═══════════ */
+        /* ═══════════ 明细交互（删除可撤销） ═══════════ */
         $('#list').addEventListener('click', e => {
             if (e.target.closest('#seedBtn')) {
                 records = seed(); save(); renderAll(); toast('已载入示例数据');
@@ -1694,10 +1654,15 @@
             const btn = e.target.closest('.del');
             if (!btn) return;
             const row = btn.closest('.row'), id = row.dataset.id;
+            const rec = records.find(r => r.id === id);
             row.classList.add('out');
             setTimeout(() => {
                 records = records.filter(r => r.id !== id);
-                save(); renderAll(); toast('已删除一笔记录');
+                save(); renderAll();
+                toast(`已删除：${catOf(rec).name} ${rec.type === 'income' ? '+' : '−'}¥${fmtMoney(rec.amount)}`, {
+                    label: '撤销',
+                    fn: () => { records.push(rec); save(); renderAll(rec.id); }
+                });
             }, 220);
         });
 
@@ -1714,7 +1679,7 @@
             if (e.key === 'Escape') { bi.value = budget; bi.blur(); }
         });
 
-        /* ═══════════ 导出 / 清空 ═══════════ */
+        /* ═══════════ 导出 CSV ═══════════ */
         $('#exportBtn').onclick = () => {
             if (!records.length) return toast('暂无数据可导出');
             const rows = [['日期', '类型', '分类', '金额', '备注']];
@@ -1724,16 +1689,10 @@
             const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8' });
             const a = document.createElement('a');
             a.href = URL.createObjectURL(blob);
-            a.download = `拾账_${fmtDate(new Date())}.csv`;
+            a.download = `有数_${fmtDate(new Date())}.csv`;
             a.click();
             URL.revokeObjectURL(a.href);
             toast('已导出 CSV 文件');
-        };
-        $('#clearBtn').onclick = () => {
-            if (!records.length) return;
-            if (confirm('确定清空全部账目吗？此操作不可恢复。')) {
-                records = []; save(); renderAll(); toast('已清空全部账目');
-            }
         };
 
         /* ═══════════ 启动 ═══════════ */
@@ -1902,53 +1861,15 @@
             }
             return null;
         }
-        let deferredInstallPrompt = null;
-        const installPrompt = document.getElementById('installPrompt');
-        const installCopy = document.getElementById('installCopy');
-        const installBtn = document.getElementById('installBtn');
-        const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
-        const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+    </script>
 
-        function showInstallPrompt(copy, buttonText, onClick) {
-            installCopy.textContent = copy;
-            installBtn.textContent = buttonText;
-            installBtn.onclick = onClick;
-            installPrompt.hidden = false;
-        }
-
-        window.addEventListener('beforeinstallprompt', event => {
-            event.preventDefault();
-            deferredInstallPrompt = event;
-            if (!isStandalone) {
-                showInstallPrompt('把拾账安装到本地，打开更快，也方便离线使用。', '安装', async () => {
-                    installPrompt.hidden = true;
-                    deferredInstallPrompt.prompt();
-                    const choice = await deferredInstallPrompt.userChoice;
-                    if (choice.outcome !== 'accepted') installPrompt.hidden = false;
-                    deferredInstallPrompt = null;
-                });
-            }
-        });
-
-        window.addEventListener('appinstalled', () => {
-            deferredInstallPrompt = null;
-            installPrompt.hidden = true;
-        });
-
-        if (!isStandalone && isIOS) {
-            showInstallPrompt('在浏览器的分享菜单中选择“添加到主屏幕”，即可安装拾账。', '知道了', () => {
-                installPrompt.hidden = true;
-            });
-        }
-
+    <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                // 加上 scope 限制范围
                 navigator.serviceWorker.register('./sw.js', { scope: './' }).catch(() => { });
             });
         }
     </script>
-
 </body>
 
 </html>
